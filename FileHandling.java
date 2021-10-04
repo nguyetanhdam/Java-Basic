@@ -9,9 +9,10 @@ public class FileHandling {
 
         /**
          * Reading a file
+         * File myFile = new File("test.txt");
+         * Scanner scanner = new Scanner(myFile);
          */
-//        File myFile = new File("test.txt");
-//        Scanner scanner = new Scanner(myFile);
+
         File myFile = new File("test.txt");
         try {
             Scanner scanner = new Scanner(myFile);
@@ -30,9 +31,10 @@ public class FileHandling {
 
         /**
          * Wrrite a file
+         * FileWriter fileWriter = new FileWriter("test.txt");
+         * fileWriter.write("");
          */
-//        FileWriter fileWriter = new FileWriter("test.txt");
-//        fileWriter.write("");
+
         try {
             FileWriter fileWriter = new FileWriter("test.txt");
             fileWriter.write("File .txt nằm ngoài thư mục src!");
